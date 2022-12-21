@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.page-home {
+    width: 100vw;
+    height: 100vh;
+    background-color: brown;
+    color: white;
+}
+
+.box-welcome {
+    width: 50%;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    /*how to use this???*/
+    transform: translate(-50%, -50%);
+
+    font-weight: 100;
+}
+
+.box-welcome>h1 {
+
+    font-size: 60px;
+    text-align: center;
+}
+
+.box-welcome>h3 {
+    font-size: 40;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    flex-basis: 200px;
+    flex-direction: row;
+    flex-grow: 0;
+    flex-shrink: 0;
+    gap: 20px;
+}
+
+.navbar>a {
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-align: center;
+    transition: .3s;
+    border-radius: 4px;
+}
+
+.navbar>a:hover {
+    color: brown;
+    background-color: white;
+}
+
+.box-welcome>.navbar {
+    margin: 0 auto;
+}
+
+.main-header {
+    display: flex;
+    padding: 20px 30px;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: brown;
+    color: white;
+}
+
+.react-fluid-table {
+    width: fit-content;
+}
